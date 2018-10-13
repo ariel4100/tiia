@@ -20,3 +20,13 @@ Route::get('/tiia/nosotros', function () {
 Route::get('/tiia/contactanos', function () {
     return view('contact');
 })->name('contact');
+Route::get('/tiia/paginas-web', function () {
+    return view('paginas');
+})->name('paginas');
+/*
+Route::get('/tiia/portafolio', function () {
+    return view('portafolio');
+})->name('portafolio');
+Route::get('/tiia/etapas', function () {
+    return view('etapa');
+})->name('etapas');*/

@@ -1,8 +1,5 @@
 <!--Footer-->
-<footer class="page-footer text-center bg-dark font-small mt-4 wow fadeIn">
-
-
-    <hr class="my-4">
+<footer class="page-footer text-center bg-dark font-small  wow fadeIn">
 
     <!-- Social icons
     <div class="pb-4">
@@ -39,7 +36,7 @@
         </a>
     </div>
     -->
-    <p class="lead"><b>TIIA</b></p>
+    <p class="lead pt-4"><b>TIIA</b></p>
     <!--Copyright-->
     <div class="footer-copyright py-3">
         © 2018 Copyright:

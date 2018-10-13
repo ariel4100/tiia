@@ -1,6 +1,6 @@
-<header>
+<header class="">
     <!-- Navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark " style="background-color: rgba(0,0,0,0.7)">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark mb-sm-5" style="background-color: rgba(0,0,0,0.7)">
         <div class="container">
 
             <!-- Brand -->
@@ -19,16 +19,19 @@
 
                 <!-- Left -->
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/">INICIO
+                    <li class="nav-item  {{ request()->is('/') ? 'active' : ''}}">
+                        <a class="nav-link" href="/">Inicio
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('about') }}">SOBRE TIIA</a>
+                    <li class="nav-item  {{ request()->is('tiia/about') ? 'active' : ''}}">
+                        <a class="nav-link" href="{{ route('about') }}">Nosotros</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('contact') }}">CONTACTANOS</a>
+                    <li class="nav-item  {{ request()->is('tiia/paginas-web') ? 'active' : ''}}">
+                        <a class="nav-link" href="{{ route('paginas') }}">Paginas Webs</a>
+                    </li>
+                    <li class="nav-item  {{ request()->is('tiia/contactanos') ? 'active' : ''}}">
+                        <a class="nav-link" href="{{ route('contact') }}">Contacto</a>
                     </li>
                 </ul>
             </div>

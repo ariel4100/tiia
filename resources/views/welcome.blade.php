@@ -1,220 +1,139 @@
 @extends('layouts.app')
 @section('content')
-    <div style="background-image: url('https://mdbootstrap.com/img/Photos/Others/architecture.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
-        <!-- Mask & flexbox options-->
-        <div class="mask rgba-gradient d-flex justify-content-center align-items-center">
-            <!-- Content -->
+    <div style="background-image: url('https://zedplan.com/assets/images/uploads/pcintro2.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;background-attachment: fixed;">
+        <div class="mask rgba-gradient">
             <div class="container">
-                <!--Grid row-->
-                <div class="row">
-                    <!--Grid column-->
-                    <div class="col-md-6 text-white text-center text-md-left mt-xl-5 mb-5 wow fadeInLeft" data-wow-delay="0.3s">
-                        <h1 class="h1-responsive font-weight-bold mt-sm-5">TIIA <small>(Tecnologia Informatica e Innovacion Argentina)</small></h1>
+                <div class="row py-5">
+                    <div class="col-md-6 text-white text-center text-md-left my-5 wow fadeInLeft" data-wow-delay="0.3s">
+                        <h1 class="h1-responsive font-weight-bold mt-5">TIIA</h1>
                         <hr class="hr-light">
-                        <h6 class="mb-4">En TIIA pensamos, diseñamos y hacemos sitios web y aplicaciones usables, entendibles y fáciles de administrar.
-                            La combinación perfecta entre Diseño y Programación.</h6>
-                        <a class="btn btn-primary">ver mas</a>
+                        <p class="lead">Desarrollo de Aplicaciones Web.</p>
+                        <a href=" https://wa.me/541159350431" target="_blank" class="btn btn-outline-success">Contactame <i class="fab fa-whatsapp fa-6x pr-2"></i><p class="h2">Whatsapp: 1159350431</p></a>
+                    </div>
+                    <div class="col-md-6 text-white text-center my-5">
+                        <!-- Mask & flexbox options-->
+                        <div class="mask border border-white wow pulse infinite rgba-black-light p-5 d-flex justify-content-center align-items-center mt-5">
+                            <!-- Content -->
+                            <div class="text-center white-text wow fadeIn">
+                                <h2 class="h1 mb-4 wow pulse infinite">
+                                    <strong>¡50% dcto. x este año aprovecha ya!!!</strong>
+                                </h2>
+                                <a href="{{ route('paginas') }}" class="btn btn-dark  wow pulse infinite">Paginas Webs</a>
+                            </div>
+                            <!-- Content -->
 
+                        </div>
+                        <!-- Mask & flexbox options-->
                     </div>
-                    <!--Grid column-->
-                    <!--Grid column-->
-                    <div class="col-md-6 col-xl-5 mt-xl-5 wow fadeInRight" data-wow-delay="0.3s">
-                        <img src="https://mdbootstrap.com/img/Mockups/Transparent/Small/admin-new.png" alt="" class="img-fluid">
-                    </div>
-                    <!--Grid column-->
+                        <!--Grid column
+                        <div class="col-md-12 text-white text-center mt-5 pt-3 text-md-left mb-5 wow fadeInLeft" data-wow-delay="0.3s">
+                            <h1 class="h1-responsive font-weight-bold mt-sm-5">TIIA <small>(Tecnologia Informatica e Innovacion Argentina)</small></h1>
+                            <hr class="hr-light">
+                            <h6 class="mb-4">En TIIA pensamos, diseñamos y hacemos sitios web y aplicaciones usables, entendibles y fáciles de administrar.
+                                La combinación perfecta entre Diseño y Programación.</h6>
+                            <a class="btn btn-primary">ver mas</a>
+
+                        </div>
+                        <!--Grid column-->
+                        <!--Grid column-
+                        <div class="col-md-6 pt-4 col-xl-5 mt-xl-5 wow fadeInRight" data-wow-delay="0.3s">
+                            <img src="https://mdbootstrap.com/img/Mockups/Transparent/Small/admin-new.png" alt="" class="img-fluid">
+                        </div>
+                        Grid column-->
                 </div>
-                <!--Grid row-->
             </div>
-            <!-- Content -->
         </div>
-        <!-- Mask & flexbox options-->
     </div>
-    <!--Main layout-->
-    <main>
-        <div class="container">
 
-            <!--Section: Main info-->
-            <section class="mt-5 wow fadeIn">
+    <section class="container pt-5 wow fadeIn">
+            <div class="row">
+                <div class="col-md-7 my-5">
+                    <h2 class="">En <strong>TIIA</strong> pensamos, diseñamos y hacemos sitios web y aplicaciones usables, entendibles y fáciles de administrar.</h2>
+                    <hr class="bg-dark my-5">
+                    <p><b class="h4">La combinación perfecta entre Diseño y Programación.</b></p>
+                </div>
+                <div class="col-md-5">
 
-                <!--Grid row-->
-                <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-6 mb-4">
-
-                        <img src="https://mdbootstrap.com/img/Marketing/mdb-press-pack/mdb-main.jpg" class="img-fluid z-depth-1-half" alt="">
-
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-md-6 mb-4">
-                        <p class="lead  my-5">Nuestros desarrollos se focalizan en la necesidad puntual del cliente ya sea el control de stock la integración con sistemas de facturación o publicar un catalogo de productos on-line, ponemos a disposición de la empresa un grupo de trabajo que logra cumplir los requerimientos del cliente.</p>
-                    </div>
-                    <!--Grid column-->
+                    <img class="img-fluid" src="https://mdbootstrap.com/img/Mockups/Transparent/Small/iphone-portfolio1.png" alt="Sample image">
 
                 </div>
-                <!--Grid row-->
+            </div>
 
-            </section>
-            <!--Section: Main info-->
+        </section>
 
-
-
-            <hr class="mb-5">
-            <section class="my-5">
-
-                <!-- Section heading -->
-                <h2 class="h1-responsive font-weight-bold text-center my-5">Nuestras Membresias</h2>
-                <!-- Section description -->
-                <p class="text-center w-responsive mx-auto mb-5">
-                    Para empezar se requiere dejarnos un mensaje en la parte contacto de esta página o un mensaje a "contacto@tisaempresa.com.ar" .
-                    El presupuesto básico de la página inicia de los 3000$ ARS.
-                </p>
-
-                <!-- Grid row -->
-                <div class="row">
-
-                    <!-- Grid column -->
-                    <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
-
-                        <!-- Pricing card -->
-                        <div class="card pricing-card">
-
-                            <!-- Price -->
-                            <div class="price header white-text blue rounded-top">
-                                <h2 class="number">10</h2>
-                                <div class="version">
-                                    <h5 class="mb-0">Basic</h5>
+    <div class="card card-image" style="background-image: url(http://res.cloudinary.com/pym/image/upload/f_auto,q_auto/v1510015008/full_work.jpg);background-repeat: no-repeat; background-size: cover; background-position: center center;background-attachment: fixed;">
+            <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+            <div class="container">
+                <section class="my-5">
+                    <h2 class="h1-responsive font-weight-bold">Por que TIIA?</h2>
+                    <div class="row">
+                        <div class="col-md-4 mb-md-0 mb-5">
+                            <div class="row">
+                                <div class="col-lg-10 col-md-9 col-10">
+                                    <i class="fa fa-bullhorn blue-text fa-2x my-5"></i>
+                                    <h4 class="font-weight-bold">Contamos con Interfaces mejor Diseñadas. <br>Manejo Simple, Rapido y Facil de administrar.</h4>
                                 </div>
                             </div>
-
-                            <!-- Features -->
-                            <div class="card-body striped mb-1">
-
-                                <ul>
-                                    <li>
-                                        <p class="mt-2"><i class="fa fa-check green-text pr-2"></i>20 GB Of Storage</p>
-                                    </li>
-                                    <li>
-                                        <p><i class="fa fa-check green-text pr-2"></i>2 Email Accounts</p>
-                                    </li>
-                                    <li>
-                                        <p><i class="fa fa-times red-text pr-2"></i>24h Tech Support</p>
-                                    </li>
-                                    <li>
-                                        <p><i class="fa fa-times red-text pr-2"></i>300 GB Bandwidth</p>
-                                    </li>
-                                    <li>
-                                        <p><i class="fa fa-times red-text pr-2"></i>User Management </p>
-                                    </li>
-                                </ul>
-                                <button class="btn btn-blue">Buy now</button>
-
-                            </div>
-                            <!-- Features -->
-
                         </div>
-                        <!-- Pricing card -->
-
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
-
-                        <!-- Pricing card -->
-                        <div class="card pricing-card">
-
-                            <!-- Price -->
-                            <div class="price header white-text indigo rounded-top">
-                                <h2 class="number">20</h2>
-                                <div class="version">
-                                    <h5 class="mb-0">Pro</h5>
+                        <div class="col-md-4 mb-md-0 mb-5">
+                            <div class="row">
+                                <div class="col-lg-10 col-md-9 col-10">
+                                    <i class="fa fa-bullhorn blue-text fa-2x my-5"></i>
+                                    <h4 class="font-weight-bold">Ofrece Seguridad de Autenticación de diferentes tipos de perfiles.</h4>
                                 </div>
                             </div>
-
-                            <!-- Features -->
-                            <div class="card-body striped mb-1">
-
-                                <ul>
-                                    <li>
-                                        <p class="mt-2"><i class="fa fa-check green-text pr-2"></i>20 GB Of Storage</p>
-                                    </li>
-                                    <li>
-                                        <p><i class="fa fa-check green-text pr-2"></i>4 Email Accounts</p>
-                                    </li>
-                                    <li>
-                                        <p><i class="fa fa-check green-text pr-2"></i>24h Tech Support</p>
-                                    </li>
-                                    <li>
-                                        <p><i class="fa fa-times red-text pr-2"></i>300 GB Bandwidth</p>
-                                    </li>
-                                    <li>
-                                        <p><i class="fa fa-times red-text pr-2"></i>User Management</p>
-                                    </li>
-                                </ul>
-                                <button class="btn btn-indigo">Buy now</button>
-
-                            </div>
-                            <!-- Features -->
-
                         </div>
-                        <!-- Pricing card -->
-
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-lg-4 col-md-6">
-
-                        <!-- Pricing card -->
-                        <div class="card pricing-card">
-
-                            <!-- Price -->
-                            <div class="price header white-text deep-purple rounded-top">
-                                <h2 class="number">30</h2>
-                                <div class="version">
-                                    <h5 class="mb-0">Enterprise</h5>
+                        <div class="col-md-4 mb-md-0 mb-5">
+                            <div class="row">
+                                <div class="col-lg-10 col-md-9 col-10">
+                                    <i class="fa fa-bullhorn blue-text fa-2x my-5"></i>
+                                    <h4 class="font-weight-bold">Es Confiable, Seguro, y sobre todo el costo del mantenimiento economico.</h4>
                                 </div>
                             </div>
-
-                            <!-- Features -->
-                            <div class="card-body striped mb-1">
-
-                                <ul>
-                                    <li>
-                                        <p class="mt-2"><i class="fa fa-check green-text pr-2"></i>30 GB Of Storage</p>
-                                    </li>
-                                    <li>
-                                        <p><i class="fa fa-check green-text pr-2"></i>5 Email Accounts</p>
-                                    </li>
-                                    <li>
-                                        <p><i class="fa fa-check green-text pr-2"></i>24h Tech Support</p>
-                                    </li>
-                                    <li>
-                                        <p><i class="fa fa-check green-text pr-2"></i>300 GB Bandwidth</p>
-                                    </li>
-                                    <li>
-                                        <p><i class="fa fa-check green-text pr-2"></i>User Management</p>
-                                    </li>
-                                </ul>
-                                <button class="btn btn-deep-purple">Buy now</button>
-
-                            </div>
-                            <!-- Features -->
-
                         </div>
-                        <!-- Pricing card -->
-
                     </div>
-                    <!-- Grid column -->
-
-                </div>
-                <!-- Grid row -->
-
-            </section>
+                </section>
+            </div>
         </div>
-    </main>
-    <!--Main layout-->
+    </div>
+
+    <hr class="mb-5">
+
+    <div class="container">
+        <div class="py-4">
+            <div class="row">
+                <div class="card-deck">
+                    <div class="col-md-12 col-lg-3 my-3">
+                        <img class="card-img-top py-3" src="https://desarrollo.programacionymas.com/images/inicio/web_icon.svg" alt="Portafolio">
+                    </div>
+                    <div class="col-md-12 col-lg-8 text-right">
+                        <h2 class="h2 my-5">Paginas Webs</h2>
+                        <p class="lead">En esta seccion encontraras todos nuestros beneficios.<br>
+                            Puedes acceder y ver algunos ejemplos de nuestras paginas mas solicitas que hemos realizado en este ultimo año.</p>
+                        <span class="border border-success p-2 h3">Descuento!! 50%</span>
+                        <a href="{{ route('paginas') }}" class="btn btn-outline-primary">Planes de Paginas Webs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="py-4">
+            <div class="row">
+                <div class="card-deck">
+                    <div class="col-md-12 col-lg-8">
+                        <h2 class="h2 my-5">Nuestro Portafolio</h2>
+                        <p class="lead">Diseñamos y desarrollamos aplicaciones web.<br>
+                            Puedes acceder a nuestro portafolio para ver más información sobre las últimas aplicaciones que hemos realizado.</p>
+                        <button type="button" class="btn btn-outline-success" data-toggle="popover" data-placement="right" title="Portafolios"
+                                data-content="Esta seccion se esta Actualizando, pronto estara habilitada.">Revisa nuestras aplicaciones</button>
+                    </div>
+                    <div class="col-md-12 col-lg-3 my-3">
+                        <img class="card-img-top py-3" src="https://desarrollo.programacionymas.com/images/inicio/portfolio.svg" alt="Portafolio">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 @endsection
