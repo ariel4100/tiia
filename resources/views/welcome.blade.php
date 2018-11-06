@@ -8,7 +8,7 @@
                         <h1 class="h1-responsive font-weight-bold mt-5">TIIA</h1>
                         <hr class="hr-light">
                         <p class="lead">Desarrollo de Aplicaciones Web.</p>
-                        <a href=" https://wa.me/541159350431" target="_blank" class="btn btn-outline-success">Contactame <i class="fab fa-whatsapp fa-6x pr-2"></i><p class="h2">Whatsapp: 1159350431</p></a>
+                        <a href=" https://wa.me/541123881743" target="_blank" class="btn btn-outline-success">Contactame <i class="fab fa-whatsapp fa-6x pr-2"></i><p class="h2">Whatsapp: 1123881743</p></a>
                     </div>
                     <div class="col-md-6 text-white text-center my-5">
                         <!-- Mask & flexbox options-->
@@ -16,9 +16,9 @@
                             <!-- Content -->
                             <div class="text-center white-text wow fadeIn">
                                 <h2 class="h1 mb-4 wow pulse infinite">
-                                    <strong>¡50% dcto. x este año aprovecha ya!!!</strong>
+                                    <strong>¡50% dto. x este año aprovecha ya!!!</strong>
                                 </h2>
-                                <a href="{{ route('paginas') }}" class="btn btn-dark  wow pulse infinite">Paginas Webs</a>
+                                <a href="{{ route('paginas') }}" class="btn btn-dark  wow pulse infinite">Paginas Web</a>
                             </div>
                             <!-- Content -->
 
@@ -54,7 +54,7 @@
                 </div>
                 <div class="col-md-5">
 
-                    <img class="img-fluid" src="https://mdbootstrap.com/img/Mockups/Transparent/Small/iphone-portfolio1.png" alt="Sample image">
+                    <img class="img-fluid" src="{{ asset("img/mobile.jpg") }}" alt="Sample image">
 
                 </div>
             </div>
@@ -65,28 +65,28 @@
             <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
             <div class="container">
                 <section class="my-5">
-                    <h2 class="h1-responsive font-weight-bold">Por que TIIA?</h2>
+                    <h2 class="h1-responsive font-weight-bold wow fadeInUp">Por que TIIA?</h2>
                     <div class="row">
-                        <div class="col-md-4 mb-md-0 mb-5">
+                        <div class="col-md-4 mb-md-0 mb-5 wow fadeInLeft">
                             <div class="row">
                                 <div class="col-lg-10 col-md-9 col-10">
-                                    <i class="fa fa-bullhorn blue-text fa-2x my-5"></i>
+                                    <i class="far fa-edit blue-text fa-3x my-5"></i>
                                     <h4 class="font-weight-bold">Contamos con Interfaces mejor Diseñadas. <br>Manejo Simple, Rapido y Facil de administrar.</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-md-0 mb-5">
+                        <div class="col-md-4 mb-md-0 mb-5 wow fadeInUp">
                             <div class="row">
                                 <div class="col-lg-10 col-md-9 col-10">
-                                    <i class="fa fa-bullhorn blue-text fa-2x my-5"></i>
+                                    <i class="fas fa-chart-line blue-text fa-3x my-5"></i>
                                     <h4 class="font-weight-bold">Ofrece Seguridad de Autenticación de diferentes tipos de perfiles.</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-md-0 mb-5">
+                        <div class="col-md-4 mb-md-0 mb-5 wow fadeInRight">
                             <div class="row">
                                 <div class="col-lg-10 col-md-9 col-10">
-                                    <i class="fa fa-bullhorn blue-text fa-2x my-5"></i>
+                                    <i class="fas fa-coffee blue-text fa-3x my-5"></i>
                                     <h4 class="font-weight-bold">Es Confiable, Seguro, y sobre todo el costo del mantenimiento economico.</h4>
                                 </div>
                             </div>
@@ -102,12 +102,12 @@
     <div class="container">
         <div class="py-4">
             <div class="row">
-                <div class="card-deck">
+                <div class="card-deck wow fadeInLeft">
                     <div class="col-md-12 col-lg-3 my-3">
                         <img class="card-img-top py-3" src="https://desarrollo.programacionymas.com/images/inicio/web_icon.svg" alt="Portafolio">
                     </div>
                     <div class="col-md-12 col-lg-8 text-right">
-                        <h2 class="h2 my-5">Paginas Webs</h2>
+                        <h2 class="h2 my-5">Paginas Web</h2>
                         <p class="lead">En esta seccion encontraras todos nuestros beneficios.<br>
                             Puedes acceder y ver algunos ejemplos de nuestras paginas mas solicitas que hemos realizado en este ultimo año.</p>
                         <span class="border border-success p-2 h3">Descuento!! 50%</span>
@@ -120,7 +120,7 @@
     <div class="container">
         <div class="py-4">
             <div class="row">
-                <div class="card-deck">
+                <div class="card-deck wow fadeInRight">
                     <div class="col-md-12 col-lg-8">
                         <h2 class="h2 my-5">Nuestro Portafolio</h2>
                         <p class="lead">Diseñamos y desarrollamos aplicaciones web.<br>

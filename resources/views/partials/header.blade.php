@@ -4,8 +4,8 @@
         <div class="container">
 
             <!-- Brand -->
-            <a class="navbar-brand" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">
-                <strong>TIIA</strong>
+            <a class="navbar-brand" href="/">
+                <img src="{{ asset('img/Sin-título-2sssss.png') }}" width="130px" alt="">
             </a>
 
             <!-- Collapse -->
@@ -28,7 +28,7 @@
                         <a class="nav-link" href="{{ route('about') }}">Nosotros</a>
                     </li>
                     <li class="nav-item  {{ request()->is('tiia/paginas-web') ? 'active' : ''}}">
-                        <a class="nav-link" href="{{ route('paginas') }}">Paginas Webs</a>
+                        <a class="nav-link" href="{{ route('paginas') }}">Paginas Web <span class="badge badge-danger rounded-circle">50% dto</span></a>
                     </li>
                     <li class="nav-item  {{ request()->is('tiia/contactanos') ? 'active' : ''}}">
                         <a class="nav-link" href="{{ route('contact') }}">Contacto</a>

@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>TIIA</title>
+    <link rel="icon" href="{{asset('img/logo-head.png')}}" type="image/x-icon">
+    <title>TIIA | Diseño + Programación </title>
     <!-- Fonts -->
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">

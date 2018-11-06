@@ -33,6 +33,9 @@
                     Es una creativa empresa de sistemas informáticos, enfocada en la pasión por la innovación
                     y la tecnología.</p>
                 <hr>
+                <p class="lead">Si eres cliente y estás leyendo esto, ¡Gracias por depositar tu confianza! Y si recién nos conoces, ¡Bienvenido! Será un placer ofrecerte el Servicio que necesitas.
+                    <br>
+                    ¿Quieres venir a conocernos? <a href="{{ route('contact') }}">Escribenos</a> y estaremos encantados de recibirte.</p>
             </div>
             <div class="col-md-6 wow fadeIn">
                 <img src="https://bbvaopen4u.com/sites/default/files/styles/big-image/public/img/new/bbva-open4u-statup.jpg?itok=zU6yPVi2" class="img-fluid">

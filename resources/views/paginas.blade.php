@@ -36,7 +36,7 @@
                 <p class="text-center h6 my-2">Sistemas de Ventas,</p>
             </div>
             <div class="col-md-4">
-                <a href="https://cdn.cssauthor.com/wp-content/uploads/2017/09/Robin-Responsive-Blogger-Template.jpg">
+                <a href="https://i.ytimg.com/vi/w52AzBCnJEI/hqdefault.jpg">
                     <img src="https://i.ytimg.com/vi/w52AzBCnJEI/hqdefault.jpg" alt="" class="img-fluid">
                 </a>
                 <p class="text-center h6 my-2">Sistemas Academicos</p>
