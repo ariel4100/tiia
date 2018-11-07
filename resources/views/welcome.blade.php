@@ -54,7 +54,7 @@
                 </div>
                 <div class="col-md-5">
 
-                    <img class="img-fluid" src="{{ asset("img/mobile.jpg") }}" alt="Sample image">
+                    <img class="img-fluid"  src="img/mobile.jpg" alt="Sample image">
 
                 </div>
             </div>
