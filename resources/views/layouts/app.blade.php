@@ -4,9 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="{{asset('img/logo-head.png')}}" type="image/x-icon">
+    <meta name="description" content="En TIIA (Tecnología Informática e Innovacion Argentina) es una empresa de software. Diseñamos y desarrollamos aplicaciones web, usables, entendibles y fáciles de administrar.La combinación perfecta entre Diseño y Programación.">
+    <meta name="keywords" content="tiia empresa, tiia, empresa de software, tiia argentina, tiia innovacion, tiia tecnologia, ">
     <title>TIIA | Diseño + Programación </title>
-    <!-- Fonts -->
+    <!-- icono ----->
+    <link rel="shorcut icon" href="{{ asset('img/logo-head.png') }}" type="image/x-icon">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->

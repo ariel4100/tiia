@@ -24,11 +24,11 @@
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
-                    <li class="nav-item  {{ request()->is('tiia/about') ? 'active' : ''}}">
+                    <li class="nav-item  {{ request()->is('tiia/nosotros') ? 'active' : ''}}">
                         <a class="nav-link" href="{{ route('about') }}">Nosotros</a>
                     </li>
                     <li class="nav-item  {{ request()->is('tiia/paginas-web') ? 'active' : ''}}">
-                        <a class="nav-link" href="{{ route('paginas') }}">Paginas Web <span class="badge badge-danger rounded-circle">50% dto</span></a>
+                        <a class="nav-link" href="{{ route('paginas') }}">Paginas Web <span class="badge badge-danger rounded-circle">50% off</span></a>
                     </li>
                     <li class="nav-item  {{ request()->is('tiia/contactanos') ? 'active' : ''}}">
                         <a class="nav-link" href="{{ route('contact') }}">Contacto</a>

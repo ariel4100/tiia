@@ -44,7 +44,7 @@
     </div>
     <div class="card card-image" style="background-image: url(https://desarrollo.programacionymas.com/images/background_image/main.jpg);background-repeat: no-repeat; background-size: cover; background-position: center center;background-attachment: fixed;">
         <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
-            <div class="container my-5">
+            <div class="container">
                 <h2 class="my-5 h2 col-sm-12 text-center wow fadeInDown">En TIIA, los valores que nos identifican y guían son:</h2>
                 <div class="row features-small mb-5 mt-3">
                     <div class="col-md-4  col-sm-12 mt-2 wow bounceIn">

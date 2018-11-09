@@ -5,12 +5,12 @@
             <div class="container">
                 <div class="row py-5">
                     <div class="col-md-6 text-white text-center text-md-left my-5 wow fadeInLeft" data-wow-delay="0.3s">
-                        <h1 class="h1-responsive font-weight-bold mt-5">TIIA</h1>
+                        <h1 class="h1 font-weight-bold">TIIA</h1>
                         <hr class="hr-light">
                         <p class="lead">Desarrollo de Aplicaciones Web.</p>
                         <a href=" https://wa.me/541123881743" target="_blank" class="btn btn-outline-success">Contactame <i class="fab fa-whatsapp fa-6x pr-2"></i><p class="h2">Whatsapp: 1123881743</p></a>
                     </div>
-                    <div class="col-md-6 text-white text-center my-5">
+                    <div class="col-md-6 text-white text-center">
                         <!-- Mask & flexbox options-->
                         <div class="mask border border-white wow pulse infinite rgba-black-light p-5 d-flex justify-content-center align-items-center mt-5">
                             <!-- Content -->
@@ -48,7 +48,7 @@
     <section class="container pt-5 wow fadeIn">
             <div class="row">
                 <div class="col-md-7 my-5">
-                    <h2 class="">En <strong>TIIA</strong> pensamos, diseñamos y hacemos sitios web y aplicaciones usables, entendibles y fáciles de administrar.</h2>
+                    <p class="h3">En <strong>TIIA</strong> pensamos, diseñamos y hacemos sitios web y aplicaciones usables, entendibles y fáciles de administrar.</p>
                     <hr class="bg-dark my-5">
                     <p><b class="h4">La combinación perfecta entre Diseño y Programación.</b></p>
                 </div>
@@ -67,29 +67,17 @@
                 <section class="my-5">
                     <h2 class="h1-responsive font-weight-bold wow fadeInUp">Por que TIIA?</h2>
                     <div class="row">
-                        <div class="col-md-4 mb-md-0 mb-5 wow fadeInLeft">
-                            <div class="row">
-                                <div class="col-lg-10 col-md-9 col-10">
-                                    <i class="far fa-edit blue-text fa-3x my-5"></i>
-                                    <h4 class="font-weight-bold">Contamos con Interfaces mejor Diseñadas. <br>Manejo Simple, Rapido y Facil de administrar.</h4>
-                                </div>
-                            </div>
+                        <div class="col-md-4  mb-5 wow fadeInLeft">
+                            <i class="far fa-edit blue-text fa-3x my-5"></i>
+                            <h4 class="font-weight-bold">Contamos con Interfaces mejor Diseñadas. <br>Manejo Simple, Rapido y Facil de administrar.</h4>
                         </div>
                         <div class="col-md-4 mb-md-0 mb-5 wow fadeInUp">
-                            <div class="row">
-                                <div class="col-lg-10 col-md-9 col-10">
-                                    <i class="fas fa-chart-line blue-text fa-3x my-5"></i>
-                                    <h4 class="font-weight-bold">Ofrece Seguridad de Autenticación de diferentes tipos de perfiles.</h4>
-                                </div>
-                            </div>
+                            <i class="fas fa-chart-line blue-text fa-3x my-5"></i>
+                            <h4 class="font-weight-bold">Ofrece Seguridad de Autenticación de diferentes tipos de perfiles.</h4>
                         </div>
                         <div class="col-md-4 mb-md-0 mb-5 wow fadeInRight">
-                            <div class="row">
-                                <div class="col-lg-10 col-md-9 col-10">
-                                    <i class="fas fa-coffee blue-text fa-3x my-5"></i>
-                                    <h4 class="font-weight-bold">Es Confiable, Seguro, y sobre todo el costo del mantenimiento economico.</h4>
-                                </div>
-                            </div>
+                            <i class="fas fa-coffee blue-text fa-3x my-5"></i>
+                            <h4 class="font-weight-bold">Es Confiable, Seguro, y sobre todo el costo del mantenimiento economico.</h4>
                         </div>
                     </div>
                 </section>
@@ -110,7 +98,7 @@
                         <h2 class="h2 my-5">Paginas Web</h2>
                         <p class="lead">En esta seccion encontraras todos nuestros beneficios.<br>
                             Puedes acceder y ver algunos ejemplos de nuestras paginas mas solicitas que hemos realizado en este ultimo año.</p>
-                        <span class="border border-success p-2 h3">Descuento!! 50%</span>
+                        <div class="badge badge-danger">50% descuento!!</div>
                         <a href="{{ route('paginas') }}" class="btn btn-outline-primary">Planes de Paginas Webs</a>
                     </div>
                 </div>
