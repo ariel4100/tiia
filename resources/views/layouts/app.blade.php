@@ -7,9 +7,8 @@
     <meta name="description" content="En TIIA (Tecnología Informática e Innovacion Argentina) es una empresa de software. Diseñamos y desarrollamos aplicaciones web, usables, entendibles y fáciles de administrar.La combinación perfecta entre Diseño y Programación.">
     <meta name="keywords" content="tiia empresa, tiia, empresa de software, tiia argentina, tiia innovacion, tiia tecnologia, ">
     <title>TIIA | Diseño + Programación </title>
-    <!-- icono ----->
-    <link rel="shorcut icon" href="{{ asset('img/logo-head.png') }}" type="image/x-icon">
-    <!-- Font Awesome -->
+    <link rel="icon" href="{{ asset('img/logo-head.png') }}" type="image/x-icon">
+  
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">

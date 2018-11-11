@@ -39,7 +39,7 @@
                 <a href="https://i.ytimg.com/vi/w52AzBCnJEI/hqdefault.jpg">
                     <img src="https://i.ytimg.com/vi/w52AzBCnJEI/hqdefault.jpg" alt="" class="img-fluid">
                 </a>
-                <p class="text-center h6 my-2">Stios Academicos,Eventos,Blogs</p>
+                <p class="text-center h6 my-2">Sitios Academicos,Eventos,Blogs</p>
             </div>
             <div class="col-md-4">
                 <a href="https://w3layouts.com/wp-content/uploads/2015/12/food_template-future.jpg">
@@ -52,9 +52,9 @@
     <!---PLANES----->
     <section class="container text-center my-5">
         <h2 class="h1-responsive font-weight-bold text-center my-4 wow bounceIn">Nuestros Planes</h2>
-        <p class="text-center lead wow bounceIn">Para solicitar información sobre el Desarrollo de la Aplicacion Web, por favor complete el siguiente formulario en <a href="{{ route('contact') }}">Contactos</a>, contactanos por Whatsapp o enviando un correo a
+        <p class="text-center lead wow bounceIn">Para solicitar información sobre el Desarrollo de la Aplicacion Web, por favor complete el siguiente formulario en <a href="{{ route('contact') }}">Contactos</a>, ó contactanos por Whatsapp o enviando un correo a
             <a href="mailto:info@tiiaempresa.com">info@tiiaempresa.com</a>.
-            <br>El presupuesto básico de la página inicia de los 3000$ ARS.</p>
+            <br>El presupuesto básico de la página inicia de los <del>6000$ ARS</del> <b class="bg-danger text-white p-1">3000$ ARS.</b> </p>
         <div class="row my-5">
             <div class="col-lg-6 col-md-12 mb-lg-0 mb-4 wow fadeInUp">
                 <div class="card">
@@ -74,7 +74,7 @@
                                     <p><i class="fa fa-check green-text pr-2"></i>Redes Sociales</p>
                                 </li>
                                 <li class="d-block">
-                                    <p><i class="fa fa-check green-text pr-2"></i>Mantenimiento $600/x mes</p>
+                                    <p><i class="fa fa-check green-text pr-2"></i>Mantenimiento $400/x mes</p>
                                 </li>
                             </ul>
                         </div>
@@ -106,7 +106,7 @@
                                     <p><i class="fa fa-check green-text pr-2"></i>Resposive (Adaptable para Celulares)</p>
                                 </li>
                                 <li class="d-block">
-                                    <p><i class="fa fa-check green-text pr-2"></i>Mantenimiento $800/x mes</p>
+                                    <p><i class="fa fa-check green-text pr-2"></i>Mantenimiento $700/x mes</p>
                                 </li>
                             </ul>
                         </div>

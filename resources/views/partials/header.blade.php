@@ -5,7 +5,7 @@
 
             <!-- Brand -->
             <a class="navbar-brand" href="/">
-                <img src="{{ asset('img/Sin-título-2sssss.png') }}" width="130px" alt="">
+                <img src="{{ asset('img/Sin-título-2sssss.png') }}" width="130px" class="img-fluid" alt="">
             </a>
 
             <!-- Collapse -->
