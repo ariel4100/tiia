@@ -68,28 +68,20 @@
                     <h2 class="h1-responsive font-weight-bold wow fadeInUp">Por que TIIA?</h2>
                     <div class="row">
                         <div class="col-md-4  mb-5 wow fadeInLeft">
-                            
-                                
                                     <i class="far fa-edit blue-text fa-3x my-5"></i>
                                     <h4 class="font-weight-bold">Contamos con Interfaces mejor Diseñadas. <br>Manejo Simple, Rapido y Facil de administrar.</h4>
-                            
-                
                         </div>
                         <div class="col-md-4 mb-md-0 mb-5 wow fadeInUp">
-                            <div class="row">
-                                <div class="col-lg-10 col-md-9 col-10">
+                          
                                     <i class="fas fa-chart-line blue-text fa-3x my-5"></i>
                                     <h4 class="font-weight-bold">Ofrece Seguridad de Autenticación de diferentes tipos de perfiles.</h4>
-                                </div>
-                            </div>
+                            
                         </div>
                         <div class="col-md-4 mb-md-0 mb-5 wow fadeInRight">
-                            <div class="row">
-                                <div class="col-lg-10 col-md-9 col-10">
+                          
                                     <i class="fas fa-coffee blue-text fa-3x my-5"></i>
                                     <h4 class="font-weight-bold">Es Confiable, Seguro, y sobre todo el costo del mantenimiento economico.</h4>
-                                </div>
-                            </div>
+                          
                         </div>
                     </div>
                 </section>
