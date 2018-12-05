@@ -60,7 +60,7 @@ class Vue extends Preset
 
         copy(
             __DIR__.'/vue-stubs/ExampleComponent.vue',
-            resource_path('js/components/ExampleComponent.vue')
+            resource_path('js/components/NavbarComponent.vue')
         );
     }
 

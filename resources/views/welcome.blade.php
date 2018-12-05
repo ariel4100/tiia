@@ -7,7 +7,7 @@
                     <div class="col-md-6 text-white text-center text-md-left my-5 wow fadeInLeft" data-wow-delay="0.3s">
                         <h1 class="h1-responsive font-weight-bold mt-5">TIIA</h1>
                         <hr class="hr-light">
-                        <p class="lead">Desarrollo de Aplicaciones Web.</p>
+                        <p class="lead">Desarrollo de Aplicaciones Web. y todo lo que queres hacer</p>
                         <a href=" https://wa.me/541123881743" target="_blank" class="btn btn-outline-success">Contactame <i class="fab fa-whatsapp fa-6x pr-2"></i><p class="h2">Whatsapp: 1123881743</p></a>
                     </div>
                     <div class="col-md-6 text-white text-center my-5">
