@@ -32,6 +32,9 @@
           enable_page_level_ads: true
      });
 </script>
+<script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+</script>
 </head>
 <body>
 
@@ -40,7 +43,9 @@
     @yield('content')
     @include('partials.footer')
 </div>
-
+<amp-auto-ads type="adsense"
+              data-ad-client="ca-pub-6770941823425032">
+</amp-auto-ads>
 <!-- SCRIPTS -->
 <!-- JQuery -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
